@@ -1,0 +1,745 @@
+/*------------------ Custom CSS ------------------*/
+html, body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+}
+
+.grayscale-container {
+    clear: both;
+    margin-bottom: 24px;
+    background: #f1f1f1;
+}
+
+.grayscale {
+    border: none;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+/*------------------ Custom Navigaiton ------------------*/
+
+#navbar {
+    background: #f3f3f3;
+    width: 100%;
+    height: 100px;
+}
+  
+.navbar-header {
+    z-index: 9999;
+    background: #FFFFFF;
+    display: flex;
+    overflow: hidden;
+}
+  
+.nav-links {
+    z-index: 9999;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    margin: 0;
+    padding: 9px 0px 9px 0px;
+}
+  
+.nav-link .dictionary {
+    font-size: 14px;
+    font-weight: 700;
+    border-left: 0;
+    color: #767676;
+}
+  
+.nav-link .thesaurus {
+    font-size: 14px;
+    font-weight: 700;
+    border-left: 0;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+    background: #f44725;
+    color: #fff;
+    padding: 11px 20px 11px 20px;
+}
+  
+.nav-link .meanings {
+    border-left: 0;
+} 
+  
+.nav-link a {
+    padding: 0px 20px 0px 20px;
+    border-left: 1px solid #b6b6b6;
+    text-align: center;
+    z-index: 9999;
+    color: #000;
+    flex: none;
+    font-size: 13px;
+    font-weight: 700;
+    width: 186px;
+    cursor: pointer;
+}
+  
+.profile {
+    position: relative;
+    left: 1740px;
+    bottom: 30px;
+    z-index: 9999;
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+/*------------------ Custom Search Bar ------------------*/
+
+.search {
+    position: relative;
+    top: -20px;
+    color: #4a4a4a;
+    background: #f44725;
+    display: flex;
+    flex: 1 1 auto;
+    max-width: 100%;
+    height: 65px;
+}
+  
+.search-container {
+    display: flex;
+    z-index: 9999;
+}
+  
+.logo svg{
+    fill: #fff;
+    height: 42px;
+    margin-right: 16px;
+}
+  
+.search-bar {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+  
+.search-bar form {
+    background-color: #fff;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+  
+.topic-list {
+    width: 110px;
+    padding: 5px 0px 5px 0px;
+    border-right: 1px solid #b6b6b6;
+}
+  
+.topic {
+    color: #767676;
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+  
+[type="submit"] {
+    background-color: transparent;
+    color: #f44725;
+}
+  
+[type="submit"] > i {
+    font-size: 20px;
+    margin-left: -10px;
+}
+
+/*------------------ Custom Body ------------------*/
+
+.center {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------------ Custom Hero ------------------*/
+
+.hero {
+    border: none;
+    display: inline-block;
+    width: 970px;
+    height: 455px;
+}
+
+.grammar-promo-container {
+    padding: 0 48px;
+    margin: 140px 0;
+    width: 1800px;
+    height: 290px;
+    background: rgb(255, 238, 115) none repeat scroll 0% 0%;
+}
+
+.grammar-promo-container > * {
+    background: rgb(255, 238, 115);
+}
+
+.right {
+    margin-right: 24px;
+}
+
+.left {
+    margin-left: 24px;
+}
+
+.grammar-text {
+    height: 180px;
+    width: auto;
+}
+
+.grammar-text h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 0.8;
+    margin: 0 0 4px;
+    padding: 0;
+    text-align: left;
+}
+
+.grammar-promo-container .grammar-text p {
+    margin-bottom: 50px;
+}
+
+.grammar-text p, a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(74, 74, 74);
+    margin: 0 0 0.83em;
+    text-align: left;
+}
+
+.button {
+    background: rgb(244, 71, 37) none repeat scroll 0% 0%;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    padding: 16px 70px;
+    width: 200px;
+}
+
+.advert-column img {
+    height: 240px;
+    width: auto;
+    background: #fff none repeat scroll 0% 0%;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px;
+}
+
+/*------------------ Custom Synonym ------------------*/
+
+#synonym {
+    background: #fff none repeat scroll 0% 0%;
+    margin-bottom: 24px;
+    padding: 32px 48px;
+}
+
+.synonym-of-the-day {
+    max-width: 544px;
+}
+
+.synonym-of-the-day h2 {
+    font-size: 32px;
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+    margin: 0 0 4px 0; 
+}
+
+.synonym-container {
+    background: #fff none repeat scroll 0% 0%;
+    border: 12px solid rgb(255, 145, 0);
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    height: 100%;
+    max-width: unset;
+    padding: 32px;
+}
+
+.date {
+    color: rgb(74, 74, 74);
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.synonym-grid {
+    display: flex;
+}
+
+.synonym-grid a {
+    font-size: 23px;
+}
+
+.synonym-grid a span {
+    color: rgb(255, 145, 0);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fa-exchange-alt {
+    color: rgb(74, 74, 74);
+    vertical-align: text-bottom;
+    font-size: 24px;
+    padding: 0px 0px 12px 0px;
+}
+
+.synonym-grid .word-example {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    border: 2px dashed rgb(182, 182, 182);
+    margin-bottom: 12px;
+    padding: 4px 4px;
+}
+
+.answer {
+    color: rgb(0, 36, 139);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*------------------ Custom Words ------------------*/
+
+#words {
+    background: #fff none repeat scroll 0% 0%;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    padding: 32px 0px 0px;
+}
+
+.words-container h2 {
+    margin-bottom: 12px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.words-list-item {
+    padding: 0 0 12px 8px;
+    right: 8px;
+}
+
+.words-list-item a {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1;
+    text-align: left;
+    background: rgb(244, 71, 37);
+    color: #fff;
+    padding: 8px 16px;
+}
+
+.word-form-container {
+    margin-bottom: 14px;
+    padding: 0px 64px;
+}
+
+.word-form-container p {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    width: 380px;
+    padding-left: 14px;
+}
+
+.word-form {
+    background: #fff;
+    display: flex;
+    min-height: 48px;
+    width: 435px;
+}
+
+.form-word-input {
+    color: #4a4a4a;
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+    padding: 4px 8px 0px 12px;
+    width: 100%;
+    border-width: 0;
+}
+
+.form-word-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #1a1a1a;
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+/*------------------ Custom Grammar and Writing Tips ------------------*/
+
+.grammar-container h2 {
+    font-size: 32px;
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+    margin: 0 0 4px 0;
+}
+
+.grammar-container p {
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+    color: rgb(74, 74, 74);
+}
+
+.grammar-row {
+    padding-top: 50px;
+    margin: calc(-20px);
+    transition: opacity 100ms ease-in 0s;
+}
+
+.thumbnail-card a {
+    color: rgb(0, 36, 139);
+}
+
+.thumbnail-card img {
+    object-fit: contain;
+    max-width: 284px;
+    max-height: 160px;
+}
+
+.thumbnail-card:nth-child(1) img {
+    background: rgb(244, 71, 37);
+}
+
+.thumbnail-card:nth-child(2) img {
+    background: #c20034;
+}
+
+.thumbnail-card:nth-child(3) img {
+    background: #860057;
+}
+
+.thumbnail-text h3 {
+    margin: 20px 0px 8px;
+    padding: 0px;
+}
+
+.thumbnail-text h3 a {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.15;
+}
+
+.thumbnail-text p {
+    margin-bottom: 20px;
+}
+
+.thumbnail-text a:last-child {
+    font-weight: bold;
+}
+
+/*------------------ Custom Word of the Day ------------------*/
+
+#word-of-the-day {
+    padding: 24px 0px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background: #fff;
+}
+
+.word-grid {
+    height: 170px;
+}
+
+.word-grid h2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 0px;
+}
+
+.word-grid p {
+    color: rgb(74, 74, 74);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.15;
+    text-align: left;
+}
+
+.colored-card {
+    z-index: 1;
+    position: absolute;
+    top: 1780px;
+    right: 470px;
+    flex-basis: 448px;
+    height: 275px;
+    min-width: 448px;
+    padding: 24px 32px;
+    background: #fff none repeat scroll 0% 0%;
+    border: 12px solid rgb(75, 151, 221);
+}
+
+.colored-word span {
+    color: rgb(75, 151, 221);
+    font-size: 69.4897px;
+    font-weight: bold;
+    margin: 0 0 4px;
+}
+
+.colored-pronouce {
+    font-size: 22px;
+}
+
+.sound-button {
+    background: transparent;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.examples {
+    margin-top: 80px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.examples a {
+    color: rgb(0, 36, 139);
+    margin-right: 8px;
+}
+
+/*------------------ Custom Overused Words ------------------*/
+
+#overused {
+    padding: 24px 0px;
+    margin-top: 0px;
+    margin-bottom: 140px;
+    background: #fff;
+}
+
+.overused-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 0px;
+}
+
+.overused-title p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.15;
+    color: rgb(74, 74, 74);
+    text-align: left;
+}
+
+.overused-row {
+    width: 900px;
+}
+
+.overused-row ul li {
+    border-right: 1px solid rgb(243, 243, 243);
+    border-top: medium none;
+    padding: 32px 0px;
+}
+
+.overused-row ul li:last-child {
+    border-right: none;
+}
+
+.overused-word {
+    font-size: 32px;
+}
+
+.overused-icon::before {
+    content: "\21F5";
+    font-size: 28px;
+    color: #f44725;
+}
+
+.overused-solutions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.overused-solutions a {
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 0.23em;
+}
+
+/*------------------ Custom Browse Thesaurus.com ------------------*/
+
+#browse {
+    padding: 24px 0px;
+    margin-bottom: 24px;
+    background: #fff;
+}
+
+.browse-title {
+    margin-bottom: 24px;
+}
+
+.browse-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 0px; 
+    text-align: left;
+}
+
+#browse p {
+    color: rgb(74, 74, 74);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.15;
+    text-align: left;
+}
+
+.alphabet-list {
+    margin-bottom: 24px;
+}
+
+.alphabet-item {
+    margin: 0 8px 8px 0;
+}
+
+.alphabet-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #f44725;
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: bold;
+    height: 46px;
+    width: 46px;
+}
+
+#browse h4 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.15;
+    margin: 0 0 16px;
+    padding: 0;
+}
+
+.product-link {
+    display: block;
+    margin: 0 24px 24px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 36, 139);
+    text-align: left;
+}
+
+.product-title {
+    display: block;
+    margin: 0 24px -15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#browse .product-text {
+    color: rgb(74, 74, 74);
+    font-size: 14px;
+    margin: 0;
+}
+
+.product-row {
+    position: relative;
+    top: -10px;
+}
+
+.svg-grid a {
+    cursor: pointer;
+}
+
+/*------------------ Custom Footer ------------------*/
+
+.footer-container {
+    background-color: rgb(26, 26, 26);
+    padding: 32px 24px 40px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 16px;
+}
+
+.signup-grid {
+    position: relative;
+    right: 70px;
+}
+
+.word-form-text {
+    color: #fff;
+    font-size: 14.5px;
+    font-weight: bold;
+    text-align: center;
+    width: 510px;
+}
+
+.logo-container {
+    margin-left: 55px;
+    margin-bottom: 55px;
+}
+
+.logo-container .dictionary svg, .thesaurus svg {
+    width: 220px;
+    margin-left: 16px;
+}
+
+.social-media {
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+.social-list {
+    position: relative;
+    left: 45px;
+}
+
+.social-item {
+    margin-right: 24px;
+}
+
+.social-item a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-links {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.footer-list li {
+    margin-bottom: 24px;
+}
+
+.footer-list li a {
+    color: #fff;
+}
+
+.copyright {
+    font-size: 18px;
+}
